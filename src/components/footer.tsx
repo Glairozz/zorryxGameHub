@@ -57,7 +57,7 @@ export default function Footer() {
           <div className="space-y-3">
             <h3 className="text-sm font-semibold">Categories</h3>
             <ul className="space-y-2">
-              {["Strategy", "Puzzle", "Arcade", "Educational"].map(
+              {["Strategy", "Puzzle", "Arcade", "Educational", "Party"].map(
                 (category) => (
                   <li key={category}>
                     <Link
