@@ -17,11 +17,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://game-hub-portal-alpha.vercel.app"),
   title: {
-    default: "Game Hub - Play Web-Based Games Online",
-    template: "%s | Game Hub",
+    default: "ZZoryx GameHub - Play Online Games",
+    template: "%s | ZZoryx GameHub",
   },
   description:
-    "Play different web-based games in one place. Choose your favorite game and start playing.",
+    "Welcome to ZZoryx GameHub! Discover and play exciting online games, explore game categories, and find your next favorite game.",
+  applicationName: "ZZoryx GameHub",
   alternates: {
     canonical: "/",
   },
@@ -35,10 +36,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://game-hub-portal-alpha.vercel.app",
-    siteName: "Game Hub",
-    title: "Game Hub - Play Web-Based Games Online",
+    siteName: "ZZoryx GameHub",
+    title: "ZZoryx GameHub - Play Online Games",
     description:
-      "Play different web-based games in one place. Choose your favorite game and start playing.",
+      "Welcome to ZZoryx GameHub! Discover and play exciting online games, explore game categories, and find your next favorite game.",
   },
 }
 
